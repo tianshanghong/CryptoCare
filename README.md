@@ -23,7 +23,7 @@ CryptoCare is a Web3 donation platform that enables direct ETH transfers to veri
 ## Getting Started
 
 ### Prerequisites
-- Node.js 16+
+- Node.js 18+
 - Yarn package manager
 - MetaMask or Coinbase Wallet
 

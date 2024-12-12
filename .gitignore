@@ -8,6 +8,7 @@
 
 # testing
 /coverage
+coverage.json
 
 # next.js
 /.next/
@@ -19,6 +20,8 @@
 # misc
 .DS_Store
 *.pem
+.env*.local
+.env
 
 # debug
 npm-debug.log*
@@ -27,7 +30,6 @@ yarn-error.log*
 
 # local env files
 .env*.local
-.env
 
 # vercel
 .vercel
@@ -36,19 +38,33 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# IDE specific files
+# Hardhat files
+cache
+artifacts
+typechain
+typechain-types
+
+# OpenZeppelin
+.openzeppelin/unknown-*.json
+
+# Coverage directory used by tools like istanbul
+coverage
+coverage.json
+
+# Hardhat files
+cache
+artifacts
+
+# IDE
 .idea
 .vscode
-*.swp
-*.swo
 
-# Yarn specific
-.pnp.cjs
-.pnp.loader.mjs
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-yarn.lock
+# Logs
+logs
+*.log
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache

@@ -16,7 +16,8 @@ The core of CryptoCare is a Solidity smart contract deployed on Base Testnet (Se
 
 ### Contract Address
 
-- Base Testnet (Sepolia): `[Contract Address After Deployment]`
+- Base Testnet (Sepolia): `0x5E2EA0Af5564891E1D007B8784940ee62dfb7bD9`
+- [View on BaseScan](https://sepolia.basescan.org/address/0x5E2EA0Af5564891E1D007B8784940ee62dfb7bD9)
 
 ### Smart Contract Development
 
